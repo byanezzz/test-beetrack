@@ -1,0 +1,53 @@
+.contactList {
+    background-color: #fff;
+    margin-top: 1em;
+    box-shadow: 1px 10px 15px -12px;
+}
+
+.contactListTitle {
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+    border-bottom: 1px solid #E5E5E5;
+    box-shadow: 1px 10px 15px -12px;
+    padding-left: 1em;
+}
+
+.contactListTitle {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.contactRow {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.contactImg {
+    box-shadow: 5px 0px 0.1px rgba(238, 238, 238, 0.493);
+}
+
+.contactDescription {
+    padding: 1em 1em 1em 2em;
+}
+
+.delete {
+    visibility: hidden;
+}
+
+.contactRow:hover .delete {
+    visibility: visible;
+    cursor: pointer;
+    color: #EC971F;
+}
+
+.media-left img {
+    margin: 1em 0 1em 1.3em;
+}
+
+.media-body {
+    vertical-align: bottom;
+    padding-bottom: 0.6em;
+}
+
+.pd-right {
+    padding-right: 0 !important;
+}
